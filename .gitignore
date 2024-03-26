@@ -1,2 +1,5 @@
 **.csv.gz*
 **.csv*
+**/pg-data/*
+**/.ipynb_checkpoints/*
+**/data/*
