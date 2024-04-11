@@ -1,6 +1,14 @@
 **.csv.gz*
 **.csv*
-**/pg-data/*
+**/pg-data
 **/.ipynb_checkpoints/*
-**/data/*
 **/.DS_Store/*
+*.log
+**/logs/
+**/postgres_data/*
+**/data/*
+**/__pycache__/*
+**.txt*
+**.env*
+**/pg_data/*
+**/.DS_Store/
