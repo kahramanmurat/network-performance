@@ -10,5 +10,6 @@
 **.env*
 **/pg_data/*
 **/.DS_Store/
-**.csv*
+*.csv
 **.csv.gz*
+**/.ipynb_checkpoints/
