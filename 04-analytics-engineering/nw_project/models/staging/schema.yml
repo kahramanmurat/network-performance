@@ -1,0 +1,14 @@
+version: 2
+sources:
+  - name: staging
+    database: network-performance-418402
+    schema: network_performance
+
+    tables:
+      - name: table_2020
+      - name: table_2021
+      - name: table_2022
+      - name: table_2023
+      - name: table_2024
+
+  
