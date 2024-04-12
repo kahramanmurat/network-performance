@@ -44,8 +44,8 @@ def generate_hourly_data(sites_per_county):
         'average_user': 'random_float|20.0;150.0',
     }
 
-    start_date = datetime(2024, 4, 9, 0, 0, 0)  # Start date: Adjust as needed
-    end_date = datetime(2024, 4, 9, 23, 0, 0)   # End date: Adjust as needed
+    start_date = datetime(2024, 4, 10, 0, 0, 0)  # Start date: Adjust as needed
+    end_date = datetime(2024, 4, 10, 23, 0, 0)   # End date: Adjust as needed
 
     while start_date <= end_date:
         year_month_day = start_date.strftime('%Y-%m-%d')
