@@ -35,4 +35,16 @@ This folder contains my project for the [Data Engineering Zoomcamp](https://gith
 
 # Problem
 
-This is a simple project which takes data from the GitHub Archive and transforms it in order to visualize the top GitHub contributors as well as the amount of commits per day.
+The primary objective of this project is to develop a solution that effectively handles and transforms network performance data, specifically focusing on Downlink and Uplink data traffic. This data, though artificially generated, will be stored in a designated GitHub repository. The transformation process will aim to prepare the data for subsequent visual analysis, facilitating both monthly and yearly overviews of traffic trends on a daily basis.
+
+The challenge involves retrieving the raw data, ensuring its accuracy and suitability for analysis, and then applying data transformation techniques to enable clear and comprehensive visual representations. This will involve calculating aggregates, averages, and possibly other statistical measures to represent the data effectively across different time frames.
+
+The ultimate goal is to provide stakeholders with insights into network performance trends, helping in strategic decision-making and operational adjustments based on data-driven evidence. This project will leverage programming and data processing skills to achieve a robust analytical tool that enhances the understanding of network dynamics over time.
+
+# Dataset
+
+The dataset utilized in this project is hosted on GitHub in the repository found at this link [GitHub Folder](https://github.com/kahramanmurat/network-performance-data). This dataset comprises artificially generated network performance data, meticulously designed to simulate real-world network traffic conditions. The data encompasses a period from the start of 2020 up to April 11, 2024, providing a comprehensive view of network dynamics over an extended timeframe.
+
+The data generation process is scripted in Python and can be reviewed via the code provided in a related repository [code](https://github.com/kahramanmurat/network-performance/blob/main/01-docker-terraform/2_docker_sql/main10.py). 
+
+The dataset includes key performance indicators such as Downlink and Uplink data traffic volumes, recorded daily. This allows for detailed analysis and visualization of data trends on both a monthly and yearly basis. The structured nature of the dataset, combined with its accessibility via GitHub, ensures that it is readily usable for processing and analysis in the project. This dataset is instrumental for analyzing trends, identifying performance issues, and evaluating the efficiency of network systems over time.
