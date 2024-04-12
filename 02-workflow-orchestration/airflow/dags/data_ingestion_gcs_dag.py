@@ -9,7 +9,7 @@ from google.cloud import storage
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2024, 4, 9),
+    'start_date': datetime.now().replace(hour=0, minute=0, second=0, microsecond=0),
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,

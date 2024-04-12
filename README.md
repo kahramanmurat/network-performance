@@ -45,7 +45,7 @@ The ultimate goal is to provide stakeholders with insights into network performa
 
 The dataset utilized in this project is hosted on GitHub in the repository found at this link [GitHub Folder](https://github.com/kahramanmurat/network-performance-data). This dataset comprises artificially generated network performance data, meticulously designed to simulate real-world network traffic conditions. The data encompasses a period from the start of 2020 up to April 11, 2024, providing a comprehensive view of network dynamics over an extended timeframe.
 
-The data generation process is scripted in Python and can be reviewed via the code provided in a related repository [code](https://github.com/kahramanmurat/network-performance/blob/main/01-docker-terraform/2_docker_sql/main10.py). 
+The data generation process is scripted in Python and can be reviewed via the code provided in a related repository [code](https://github.com/kahramanmurat/network-performance/blob/main/01-docker-terraform/2_docker_sql/main.py). 
 
 The dataset includes key performance indicators such as Downlink and Uplink data traffic volumes, recorded daily. This allows for detailed analysis and visualization of data trends on both a monthly and yearly basis. The structured nature of the dataset, combined with its accessibility via GitHub, ensures that it is readily usable for processing and analysis in the project. This dataset is instrumental for analyzing trends, identifying performance issues, and evaluating the efficiency of network systems over time.
 
